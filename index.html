@@ -8,31 +8,50 @@
         body {
             font-family: Arial, sans-serif;
             text-align: center;
-            margin: 50px;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #333;
         }
         .link-container {
-            margin: 20px;
+            margin-top: 20px;
         }
         a {
             display: block;
             margin: 10px;
-            padding: 10px;
+            padding: 15px;
             background-color: #007bff;
             color: white;
             text-decoration: none;
             border-radius: 5px;
+            font-size: 16px;
+            font-weight: bold;
+            transition: background 0.3s ease, transform 0.2s;
         }
         a:hover {
             background-color: #0056b3;
+            transform: scale(1.05);
         }
     </style>
 </head>
 <body>
-    <h1>Selecciona un enlace</h1>
-    <div class="link-container">
-        <a href="https://1drv.ms/x/c/0d1040ce18886663/EWW0MtocZJ9Jts1X7FpI5u0BKK-fkfsSU7RCOQ4UEvdXcQ?e=lGbJtY" target="_blank">Tabla De Cilindro Chico</a>
-        <a href="https://1drv.ms/x/c/0d1040ce18886663/Ecg3L7Mn1v9OqvkI9S_AiO0BYM9hIHs6qzXRqClCmHEMvA?e=N2hQlt" target="_blank">Tabla De Cilindro Grande</a>
-        <a href="https://1drv.ms/x/c/0d1040ce18886663/ESwg8Ojud-pLvjLGhmYuM70BsRvV6ye_acIYHtk28WFKDQ?e=O2u3qx" target="_blank">Tabla De Cilindro Mediano</a>
+    <div class="container">
+        <h1>Selecciona un enlace</h1>
+        <div class="link-container">
+            <a href="https://1drv.ms/x/c/0d1040ce18886663/EWW0MtocZJ9Jts1X7FpI5u0BKK-fkfsSU7RCOQ4UEvdXcQ?e=lGbJtY" target="_blank">📊 Tabla De Cilindro Chico</a>
+            <a href="https://1drv.ms/x/c/0d1040ce18886663/Ecg3L7Mn1v9OqvkI9S_AiO0BYM9hIHs6qzXRqClCmHEMvA?e=N2hQlt" target="_blank">📊 Tabla De Cilindro Grande</a>
+            <a href="https://1drv.ms/x/c/0d1040ce18886663/ESwg8Ojud-pLvjLGhmYuM70BsRvV6ye_acIYHtk28WFKDQ?e=O2u3qx" target="_blank">📊 Tabla De Cilindro Mediano</a>
+        </div>
     </div>
 </body>
 </html>
